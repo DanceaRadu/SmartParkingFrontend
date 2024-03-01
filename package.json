@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "lint": "ng lint",
+    "prettier:check": "npx prettier --check .",
+    "prettier:fix": "npx prettier --write ."
   },
   "private": true,
   "dependencies": {
