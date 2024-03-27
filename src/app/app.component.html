@@ -1,2 +1,4 @@
 <div>This is working</div>
-<button>This is a button</button>
+<button routerLink="/login">Login</button>
+<button (click)="keycloakService.logout()">Logout</button>
+<router-outlet></router-outlet>
