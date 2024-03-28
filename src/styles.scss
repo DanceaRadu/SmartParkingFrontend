@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --background-color: #1B1A55;
+  //--lighter-background-color: #ffffff;
+  //--sidebar-card-color: #eaeaff;
+  --navbar-color: #070F2B;
+  //--accent-color: #a47cff;
+  --text-color: white;
+  //--first-place-color: #c7a2d4;
+  //--second-place-color: #a391b5;
+  //--third-place-color: #8978a9;
+  //--alert-text: #f88379;
+  //--darker-error-color: #ee9595;
+
+  --font-fredoka: "Fredoka", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+
+  --box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.25);
+
+  --border-radius: 0.5rem;
+  --transition-duration: 200ms;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-raleway);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  height: 100%;
+}

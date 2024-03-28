@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from "./app.routing.module";
 import { IndexComponent } from './components/index/index.component';
 import { LoginComponent } from './components/login/login.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 function initializeKeycloak(keycloak: KeycloakService) {
   return () =>
@@ -26,7 +27,8 @@ function initializeKeycloak(keycloak: KeycloakService) {
   declarations: [
       AppComponent,
       IndexComponent,
-      LoginComponent
+      LoginComponent,
+      NavbarComponent
   ],
   imports: [
     BrowserModule,
